@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = np.loadtxt("./40000point_F2N_try1_1116.txt")
+data = np.loadtxt("./training_data_for_super_resolution_of_position.txt")
 force = data[:,1:7]
 sensor = data[:,7:43]
 pos = data[:,-3:-1]
